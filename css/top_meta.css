@@ -1,0 +1,331 @@
+body {
+  background: linear-gradient(
+    179.5deg,
+    rgba(0, 0, 0, 0.8) 91.7%,
+    rgba(47, 69, 182, 0.443967) 99.57%,
+    rgba(114, 138, 185, 0.23) 99.57%
+  );
+}
+.slider {
+  margin: 103px 0;
+}
+.slider_left {
+  margin: 0 auto;
+  width: 942px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.slider_left span {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.slider_left span.active {
+  color: #ff0000;
+}
+.slider .slider_left_top h3 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 31px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(255, 0, 0, 1);
+}
+.slider .slider_left_top h1 {
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 54px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 38px;
+  text-align: center;
+}
+.slider .slider_left_top p {
+  width: 609px;
+  margin: 25px auto 27px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0em;
+  color: rgba(255, 255, 255, 1);
+}
+
+.slider_search {
+  margin-top: 46px;
+  width: 400px;
+  height: 50px;
+  padding: 15px 10px 15px 20px;
+  border-radius: 10px;
+  background: #1c140f;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.slider_search input[type="search"] {
+  outline: none;
+  border: none;
+  background-color: transparent;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  margin-left: 15px;
+}
+.slider_search button {
+  padding: 10px 30px;
+  background: #ff0000;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  margin-left: 15px;
+}
+.meta_teams {
+  margin-top: 50px;
+  margin-bottom: 200px;
+  position: relative;
+}
+.meta_team_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 300px;
+}
+.meta_team_info {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 37px;
+}
+.meta_team_info .img_team_info {
+  width: 100%;
+  height: 100%;
+}
+.left {
+  flex-direction: row-reverse;
+}
+.meta_team_info_content h3 {
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 45px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.meta_team_info_content p {
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 20px 0;
+}
+.meta_team_info_content h5 {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 10px 0;
+}
+.meta_team_info_content ul {
+  margin: 10px 0 10px 15px;
+}
+.meta_team_info_content ul li {
+  padding: 5px 0;
+}
+.meta_team_info_content ul li img {
+  width: 15px;
+  height: 15px;
+}
+.color_red {
+  color: #ff0000;
+}
+.meta_team_info_require {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  margin: 15px 0;
+}
+.sowci {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.sowci .line_1 {
+  position: absolute;
+  top: 20%;
+  right: 0;
+}
+
+.sowci .line_2 {
+  position: absolute;
+  bottom: 17%;
+  left: 0;
+}
+
+.slider_rate {
+  max-width: 1920px;
+  max-height: 1080px;
+  width: 100%;
+  width: 100%;
+  display: block;
+  background: #1c140f;
+  padding: 60px;
+  text-align: center;
+  margin-bottom: 100px;
+}
+.slider_rate h2 {
+  margin: 0 auto;
+  width: 829px;
+  font-family: "Rubik", sans-serif;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.slider_rate_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.slider_rate_content {
+  overflow: hidden;
+  margin: 125px 0;
+}
+.slider_rate_card {
+  cursor: pointer;
+  padding: 30px;
+  border: 2px solid #fff;
+  width: 400px;
+  height: 230px;
+  border-radius: 10px;
+}
+.slider_rate_card-header,
+.slider_rate_card-header .rate {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+.slider_rate_card-header h3 {
+  font-family: "Rubik", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.slider_rate_card-header span {
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.slider_rate_card p {
+  margin-top: 40px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.slider_rate_control {
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.slider_rate_control .control {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.slick-dots ul li.slick-active {
+  width: 45px;
+  background: #ff0000;
+  border-radius: 50px;
+}
+
+.slider_rate_control .control img {
+  cursor: pointer;
+}
+.slick-prev {
+  display: none;
+}
+
+.slick-prev {
+  /*my style*/
+  display: none;
+}
+
+.btn-left,
+.btn-right {
+  position: absolute;
+  bottom: 0;
+  right: 10px;
+}
+.btn-right {
+  right: 90px;
+}
+
+.slick-dots {
+  display: flex;
+  justify-content: flex-start;
+  margin: 0;
+  padding: 1rem 0;
+
+  list-style-type: none;
+}
+.slick-dots li {
+  margin: 0 0.25rem;
+}
+
+.slick-dots button {
+  display: block;
+  width: 1rem;
+  height: 1rem;
+  padding: 0;
+  border: none;
+  border-radius: 100%;
+  background-color: rgb(255, 255, 255);
+  text-indent: -9999px;
+  transition: all 1s ease-in-out;
+}
+
+.slick-dots li.slick-active button {
+  width: 3rem;
+  border-radius: 50px;
+  background-color: red;
+}
+
+.slick-slide {
+  margin: 60px 25px;
+}
+
+.slick-list {
+  margin: 0 -20px;
+}
